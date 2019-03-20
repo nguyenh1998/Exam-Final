@@ -813,10 +813,9 @@ body.page .main-navigation {
 
 .wp-block-column a {
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 1.2em;
-  background-color: sandybrown;
-  margin-left: 8px;
+  margin-left: 2px;
 }
 
 @-webkit-keyframes anim1 {
