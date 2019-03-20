@@ -11,6 +11,7 @@
 ?>
 
 <div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto">
+	<a href="<?php the_permalink(); ?>">
 	<figure class="wp-block-media-text__media">	
 		<?php
 			$image = get_field('mon_image');
@@ -20,6 +21,7 @@
 			}
 		?>
 		<figcaption>
+		</a>
 		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 		</figcaption>
     </figure>
