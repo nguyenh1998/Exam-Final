@@ -780,6 +780,10 @@ body.page .main-navigation {
   font-size: .4em;
 }
 
+.entry-content-cours {
+  background-color: #1c7742;
+}
+
 .entry .entry-content .has-large-font-size {
   font-size: 2em;
 }
