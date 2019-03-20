@@ -11,7 +11,6 @@
 
 get_header();
 ?>
-//////////////////////// single.php ///////////////////
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main-single">
 
@@ -27,6 +26,15 @@ get_header();
 // ne s'exécute que pour les articles de catégorie nouvelle ou événement
 					get_template_part( 'template-parts/content/content', 'single-nouvelle' );
 				}
+
+
+				if(in_category('cours')) {
+
+				// à modifier  utiliser la fonction in_category() pour que 'single-nouvelle'
+				// ne s'exécute que pour les articles de catégorie nouvelle ou événement
+					get_template_part( 'template-parts/content/content', 'single-nouvelle' );
+				}
+
 
 				if ( is_singular( 'attachment' ) ) {
 					// Parent post navigation.

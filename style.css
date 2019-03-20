@@ -784,9 +784,35 @@ body.page .main-navigation {
   font-size: 2em;
 }
 
+#masthead {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+#masthead #site-navigation a {
+  color: black;
+}
+
+#masthead #site-navigation a:hover {
+  color: #4040ee;
+}
+
+.entry-content {
+  background-color: #9ff3a5;
+  border: 3px solid #51e95b;
+}
+
 .site-header {
   background-image: url("img/bg-header.jpg");
   color: white;
+}
+
+.wp-block-column a {
+  padding: 10px;
+  color: white;
+  font-size: 1.2em;
+  background-color: sandybrown;
+  margin-left: 8px;
 }
 
 @-webkit-keyframes anim1 {

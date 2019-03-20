@@ -11,7 +11,6 @@
 
 get_header();
 ?>
-//////////////////  category-cours.php //////////////
 <section id="primary" class="content-area">
 <main id="main" class="site-main-grid">
 <?php if (have_posts()) : ?>
@@ -42,4 +41,4 @@ endif;
 
 
 
-</main>< !-- #main --></section>< !-- #primary --><?php get_footer();
+</main></section><?php get_footer();
