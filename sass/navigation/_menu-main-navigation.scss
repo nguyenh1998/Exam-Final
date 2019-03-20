@@ -25,7 +25,7 @@
 		line-height: $font__line-height-heading;
 		text-decoration: none;
 		background: transparent;
-		color: white;
+		color: inherit;
 		cursor: pointer;
 		transition: background 250ms ease-in-out,
 		            transform 150ms ease;

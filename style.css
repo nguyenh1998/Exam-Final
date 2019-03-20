@@ -99,7 +99,7 @@ body.page .main-navigation {
   line-height: 1.2;
   text-decoration: none;
   background: transparent;
-  color: white;
+  color: inherit;
   cursor: pointer;
   -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
   transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
@@ -667,7 +667,7 @@ body.page .main-navigation {
     min-height: 35vh;
   }
   .site-header.featured-image .site-branding .site-title {
-    font-size: 4vw;
+    font-size: 100vw;
   }
   .site-header.featured-image .site-branding .site-description {
     font-size: 3vw;
@@ -786,9 +786,6 @@ body.page .main-navigation {
 
 .site-header {
   background-image: url("img/bg-header.jpg");
-}
-
-.site-title {
   color: white;
 }
 
